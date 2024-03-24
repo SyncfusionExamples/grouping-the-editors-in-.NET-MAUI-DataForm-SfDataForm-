@@ -1,9 +1,9 @@
 # How to grouping the editors in .NET MAUI DataForm SfDataForm
 This repository contains a sample of how to grouping the editors with attribute and event in [.NET MAUI DataForm (SfDataForm)](https://help.syncfusion.com/maui/dataform/getting-started) control.
 
-Please refer the KB through this link.
+Please refer the KB through this [link](https://support.syncfusion.com/kb/article/12342/how-to-group-the-editors-in-net-maui-dataform-sfdataform).
 
-# Syncfusin Conyrols
+## Syncfusion Controls
 
 This project used the following Syncfusion control(s):
 * [SfDataForm](https://www.syncfusion.com/maui-controls/maui-dataform)
