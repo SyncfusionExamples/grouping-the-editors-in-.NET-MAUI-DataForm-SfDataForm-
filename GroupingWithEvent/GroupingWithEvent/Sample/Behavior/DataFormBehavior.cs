@@ -14,7 +14,7 @@ namespace GroupingWithEvent
             dataForm.RegisterEditor("Prefix", DataFormEditorType.Picker);
             dataForm.GenerateDataFormItem += OnGenerateDataFormItem;
         }
-        private void OnGenerateDataFormItem(object sender, GenerateDataFormItemEventArgs e)
+        private void OnGenerateDataFormItem(object? sender, GenerateDataFormItemEventArgs e)
         {
             if (e.DataFormItem != null)
             {
@@ -35,8 +35,6 @@ namespace GroupingWithEvent
             {
                 dataForm.GenerateDataFormItem -= this.OnGenerateDataFormItem;
             }
-
-            dataForm = null;
         }
     }
 }
