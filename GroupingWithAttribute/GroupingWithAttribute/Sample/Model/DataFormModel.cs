@@ -5,14 +5,14 @@ namespace GroupingWithAttribute
     public class DataFormModel
     {
         [Display(GroupName = "Name")]
-        public string FirstName { get; set; }
+        public string FirstName { get; set; } = string.Empty;
         [Display(GroupName = "Name")]
-        public string LastName { get; set; }
+        public string LastName { get; set; } = string.Empty;
         [Display(GroupName = "Details")]
-        public string Address { get; set; }
+        public string Address { get; set; } = string.Empty;
         [Display(GroupName = "Details")]
-        public string City { get; set; }
+        public string City { get; set; } = string.Empty;
         [Display(GroupName = "Details")]
-        public string Country { get; set; }
+        public string Country { get; set; } = string.Empty;
     }
 }
